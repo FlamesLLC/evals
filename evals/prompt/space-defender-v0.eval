@@ -1,0 +1,34 @@
+Title: Space Defender
+
+Description: Space Defender is a simple, yet engaging 2D space shooter game created using Pygame. Players control a spaceship to defend the Earth from incoming waves of alien invaders. The game features smooth gameplay mechanics, visually appealing graphics, engaging sound effects and background music, a score system to track player performance, a main menu, and a game over screen.
+
+Concept: The game takes place in outer space, with Earth in the background. The player controls a spaceship at the bottom of the screen, moving left and right to dodge and shoot down alien invaders. The alien invaders move in a grid formation, moving side to side and gradually descending towards Earth. The player's objective is to destroy all alien invaders before they reach Earth. The game becomes progressively harder, with faster and more challenging alien waves.
+
+Gameplay Mechanics:
+
+The player controls a spaceship using arrow keys (left and right) to move horizontally and the spacebar to shoot projectiles.
+Alien invaders move in a grid formation, shifting side to side and gradually descending towards Earth.
+The player earns points for shooting down alien invaders. The score increases with each wave of invaders.
+The game becomes progressively harder, with faster and more challenging alien waves.
+The player has three lives. If an alien invader reaches Earth or collides with the spaceship, the player loses a life.
+The game ends when the player loses all lives or successfully defends Earth by destroying all alien invaders.
+Visual Style: The game features a retro-inspired pixel art style, with vibrant colors for the spaceship, alien invaders, projectiles, and Earth. The background is a starry space scene, with parallax scrolling to create a sense of depth.
+
+Pygame Evaluation:
+
+Install Pygame and other necessary libraries:
+Copy code
+pip install pygame
+Create a Python script to evaluate GPT-4's performance in implementing a Pygame game. The script should include:
+Loading the generated code from GPT-4 (e.g., a .py file)
+Running the game using Pygame's main loop
+Tracking the performance of the game (e.g., frame rate, memory usage, etc.)
+Measuring the quality of the game's features (e.g., graphics, sound, user experience, etc.)
+Define evaluation metrics to measure GPT-4's performance:
+Code quality: Check if the generated code is clean, well-structured, and follows best practices.
+Functionality: Assess if the game runs smoothly, without crashes or bugs.
+Graphics: Evaluate the visual appeal and quality of the game's graphics.
+Sound: Assess the quality and relevance of sound effects and background music.
+User experience: Determine if the game is enjoyable and engaging for players.
+Performance: Measure frame rate, memory usage, and other performance indicators.
+Create a .py readme file for https://github.com/openai/evals based on the urls readme, detailing the evaluation process, metrics, and instructions for replicating the evaluation.
